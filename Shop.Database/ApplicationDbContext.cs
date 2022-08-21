@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Shop.Domain.Models;
+
 
 namespace Shop.Database
     {
@@ -13,6 +15,6 @@ namespace Shop.Database
             {
                
             }
-
+        public DbSet<Product> Products { get; set; }
         }
     }

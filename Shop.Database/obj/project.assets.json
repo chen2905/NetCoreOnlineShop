@@ -288,6 +288,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         }
+      },
+      "Shop.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Shop.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shop.Domain.dll": {}
+        }
       }
     }
   },
@@ -789,12 +799,18 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Shop.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Shop.Domain/Shop.Domain.csproj",
+      "msbuildProject": "../Shop.Domain/Shop.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.0",
-      "Microsoft.EntityFrameworkCore >= 3.1.0"
+      "Microsoft.EntityFrameworkCore >= 3.1.0",
+      "Shop.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -830,7 +846,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\cgao\\Documents\\GitHub\\NetCoreOnlineShop\\Shop.Domain\\Shop.Domain.csproj": {
+              "projectPath": "C:\\Users\\cgao\\Documents\\GitHub\\NetCoreOnlineShop\\Shop.Domain\\Shop.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
