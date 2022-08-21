@@ -11,7 +11,7 @@ namespace Shop.Database
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) :base (options)
             {
-
+               
             }
 
         }
