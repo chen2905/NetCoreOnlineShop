@@ -1,25 +1,30 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Shop.UI.Pages
     {
     public class IndexModel : PageModel
         {
-        private readonly ILogger<IndexModel> _logger;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        public class ProductViewModel
             {
-            _logger = logger;
+            public string Name { get; set; }
+            public string Description { get; set; }
+            public decimal Value { get; set; }
             }
+
+        [BindProperty]//BindProperty says Product is the main model of the view
+        public ProductViewModel Product { get; set; }
 
         public void OnGet()
             {
 
+            }
+
+
+        public IActionResult OnPost()
+            {
+            return RedirectToPage("Index");
             }
         }
     }
