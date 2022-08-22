@@ -5123,28 +5123,25 @@
   "packageFolders": {
     "C:\\Users\\cgao\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cgao\\Desktop\\Github\\NetCoreOnlineShop\\shop.ui\\Shop.UI.csproj",
+      "projectUniqueName": "C:\\Users\\cgao\\Documents\\GitHub\\NetCoreOnlineShop\\Shop.UI\\Shop.UI.csproj",
       "projectName": "Shop.UI",
-      "projectPath": "C:\\Users\\cgao\\Desktop\\Github\\NetCoreOnlineShop\\shop.ui\\Shop.UI.csproj",
+      "projectPath": "C:\\Users\\cgao\\Documents\\GitHub\\NetCoreOnlineShop\\Shop.UI\\Shop.UI.csproj",
       "packagesPath": "C:\\Users\\cgao\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cgao\\Desktop\\Github\\NetCoreOnlineShop\\shop.ui\\obj\\",
+      "outputPath": "C:\\Users\\cgao\\Documents\\GitHub\\NetCoreOnlineShop\\Shop.UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\cgao\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5157,8 +5154,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\cgao\\Desktop\\Github\\NetCoreOnlineShop\\Shop.Application\\Shop.Application.csproj": {
-              "projectPath": "C:\\Users\\cgao\\Desktop\\Github\\NetCoreOnlineShop\\Shop.Application\\Shop.Application.csproj"
+            "C:\\Users\\cgao\\Documents\\GitHub\\NetCoreOnlineShop\\Shop.Application\\Shop.Application.csproj": {
+              "projectPath": "C:\\Users\\cgao\\Documents\\GitHub\\NetCoreOnlineShop\\Shop.Application\\Shop.Application.csproj"
             }
           }
         }
@@ -5194,12 +5191,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.25, 3.1.25]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -5208,7 +5199,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
       }
     }
   }

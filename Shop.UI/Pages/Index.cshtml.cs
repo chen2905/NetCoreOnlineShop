@@ -1,10 +1,19 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Shop.Application.Products;
+using Shop.Database;
+using System.Threading.Tasks;
 
 namespace Shop.UI.Pages
     {
     public class IndexModel : PageModel
         {
+        private ApplicationDbContext _ctx;
+
+        public IndexModel(ApplicationDbContext ctx)
+            {
+            _ctx = ctx;
+            }
 
         public class ProductViewModel
             {
@@ -22,8 +31,11 @@ namespace Shop.UI.Pages
             }
 
 
-        public IActionResult OnPost()
+        public async Task <IActionResult> OnPost()
             {
+
+           await new CreateProducts(_ctx).Do(Product.Name, Product.Description, Product.Value);
+
             return RedirectToPage("Index");
             }
         }

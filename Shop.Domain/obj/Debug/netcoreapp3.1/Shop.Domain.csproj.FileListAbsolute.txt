@@ -11,3 +11,16 @@ C:\Users\cgao\Desktop\Github\NetCoreOnlineShop\Shop.Domain\obj\Debug\netcoreapp3
 C:\Users\cgao\Desktop\Github\NetCoreOnlineShop\Shop.Domain\bin\Debug\netcoreapp3.1\Shop.Domain.runtimeconfig.json
 C:\Users\cgao\Desktop\Github\NetCoreOnlineShop\Shop.Domain\bin\Debug\netcoreapp3.1\Shop.Domain.runtimeconfig.dev.json
 C:\Users\cgao\Desktop\Github\NetCoreOnlineShop\Shop.Domain\obj\Debug\netcoreapp3.1\Shop.Domain.genruntimeconfig.cache
+C:\Users\cgao\Documents\GitHub\NetCoreOnlineShop\Shop.Domain\bin\Debug\netcoreapp3.1\Shop.Domain.deps.json
+C:\Users\cgao\Documents\GitHub\NetCoreOnlineShop\Shop.Domain\bin\Debug\netcoreapp3.1\Shop.Domain.runtimeconfig.json
+C:\Users\cgao\Documents\GitHub\NetCoreOnlineShop\Shop.Domain\bin\Debug\netcoreapp3.1\Shop.Domain.runtimeconfig.dev.json
+C:\Users\cgao\Documents\GitHub\NetCoreOnlineShop\Shop.Domain\bin\Debug\netcoreapp3.1\Shop.Domain.dll
+C:\Users\cgao\Documents\GitHub\NetCoreOnlineShop\Shop.Domain\bin\Debug\netcoreapp3.1\Shop.Domain.pdb
+C:\Users\cgao\Documents\GitHub\NetCoreOnlineShop\Shop.Domain\obj\Debug\netcoreapp3.1\Shop.Domain.csproj.AssemblyReference.cache
+C:\Users\cgao\Documents\GitHub\NetCoreOnlineShop\Shop.Domain\obj\Debug\netcoreapp3.1\Shop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cgao\Documents\GitHub\NetCoreOnlineShop\Shop.Domain\obj\Debug\netcoreapp3.1\Shop.Domain.AssemblyInfoInputs.cache
+C:\Users\cgao\Documents\GitHub\NetCoreOnlineShop\Shop.Domain\obj\Debug\netcoreapp3.1\Shop.Domain.AssemblyInfo.cs
+C:\Users\cgao\Documents\GitHub\NetCoreOnlineShop\Shop.Domain\obj\Debug\netcoreapp3.1\Shop.Domain.csproj.CoreCompileInputs.cache
+C:\Users\cgao\Documents\GitHub\NetCoreOnlineShop\Shop.Domain\obj\Debug\netcoreapp3.1\Shop.Domain.dll
+C:\Users\cgao\Documents\GitHub\NetCoreOnlineShop\Shop.Domain\obj\Debug\netcoreapp3.1\Shop.Domain.pdb
+C:\Users\cgao\Documents\GitHub\NetCoreOnlineShop\Shop.Domain\obj\Debug\netcoreapp3.1\Shop.Domain.genruntimeconfig.cache
