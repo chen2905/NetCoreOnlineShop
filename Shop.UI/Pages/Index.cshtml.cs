@@ -15,13 +15,7 @@ namespace Shop.UI.Pages
             _ctx = ctx;
             }
 
-        public class ProductViewModel
-            {
-            public string Name { get; set; }
-            public string Description { get; set; }
-            public decimal Value { get; set; }
-            }
-
+     
         [BindProperty]//BindProperty says Product is the main model of the view
         public ProductViewModel Product { get; set; }
 
@@ -33,9 +27,7 @@ namespace Shop.UI.Pages
 
         public async Task <IActionResult> OnPost()
             {
-
-           await new CreateProducts(_ctx).Do(Product.Name, Product.Description, Product.Value);
-
+            await new CreateProducts(_ctx).Do(Product);
             return RedirectToPage("Index");
             }
         }
