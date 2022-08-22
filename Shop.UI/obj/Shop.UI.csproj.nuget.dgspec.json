@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cgao\\Desktop\\Github\\NetCoreOnlineShop\\shop.ui\\Shop.UI.csproj": {}
+    "C:\\Users\\cgao\\Desktop\\Github\\NetCoreOnlineShop\\Shop.UI\\Shop.UI.csproj": {}
   },
   "projects": {
     "C:\\Users\\cgao\\Desktop\\Github\\NetCoreOnlineShop\\Shop.Application\\Shop.Application.csproj": {
@@ -51,6 +51,12 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.0, )"
@@ -203,6 +209,12 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.0, )"
@@ -227,14 +239,14 @@
         }
       }
     },
-    "C:\\Users\\cgao\\Desktop\\Github\\NetCoreOnlineShop\\shop.ui\\Shop.UI.csproj": {
+    "C:\\Users\\cgao\\Desktop\\Github\\NetCoreOnlineShop\\Shop.UI\\Shop.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cgao\\Desktop\\Github\\NetCoreOnlineShop\\shop.ui\\Shop.UI.csproj",
+        "projectUniqueName": "C:\\Users\\cgao\\Desktop\\Github\\NetCoreOnlineShop\\Shop.UI\\Shop.UI.csproj",
         "projectName": "Shop.UI",
-        "projectPath": "C:\\Users\\cgao\\Desktop\\Github\\NetCoreOnlineShop\\shop.ui\\Shop.UI.csproj",
+        "projectPath": "C:\\Users\\cgao\\Desktop\\Github\\NetCoreOnlineShop\\Shop.UI\\Shop.UI.csproj",
         "packagesPath": "C:\\Users\\cgao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cgao\\Desktop\\Github\\NetCoreOnlineShop\\shop.ui\\obj\\",
+        "outputPath": "C:\\Users\\cgao\\Desktop\\Github\\NetCoreOnlineShop\\Shop.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

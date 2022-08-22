@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.Logging;
 
 namespace Shop.UI.Pages
     {
@@ -17,17 +16,15 @@ namespace Shop.UI.Pages
         [BindProperty]//BindProperty says Product is the main model of the view
         public ProductViewModel Product { get; set; }
 
-
-        private readonly ILogger<IndexModel> _logger;
-
-        public IndexModel(ILogger<IndexModel> logger)
-            {
-            _logger = logger;
-            }
-
         public void OnGet()
             {
 
+            }
+
+
+        public IActionResult OnPost()
+            {
+            return RedirectToPage("Index");
             }
         }
     }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LRmZB9r6jYNH9UwkIUILYn4DPhuZkZcSuVxTQVBe21Nu+4uE0Vabq7BVXx/FJyBTe6aOZ+XrLmSodTw7fRvrJw==",
+  "dgSpecHash": "2geXj2m9ms+kB8uVXmNjWTfQVwWpazYFaoM75XmJ+E+tYCmrNhv9K6r/0mbihzlyO6Vtt+QC/YyljGBu0HdHgQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\cgao\\Desktop\\Github\\NetCoreOnlineShop\\Shop.Application\\Shop.Application.csproj",
   "expectedPackageFiles": [
@@ -9,11 +9,12 @@
     "C:\\Users\\cgao\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\3.1.0\\microsoft.aspnetcore.identity.entityframeworkcore.3.1.0.nupkg.sha512",
     "C:\\Users\\cgao\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\cgao\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\cgao\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\cgao\\.nuget\\packages\\microsoft.data.sqlclient\\1.0.19269.1\\microsoft.data.sqlclient.1.0.19269.1.nupkg.sha512",
     "C:\\Users\\cgao\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.0\\microsoft.entityframeworkcore.3.1.0.nupkg.sha512",
     "C:\\Users\\cgao\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.0\\microsoft.entityframeworkcore.abstractions.3.1.0.nupkg.sha512",
     "C:\\Users\\cgao\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.0\\microsoft.entityframeworkcore.analyzers.3.1.0.nupkg.sha512",
+    "C:\\Users\\cgao\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.0\\microsoft.entityframeworkcore.design.3.1.0.nupkg.sha512",
     "C:\\Users\\cgao\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.0\\microsoft.entityframeworkcore.relational.3.1.0.nupkg.sha512",
     "C:\\Users\\cgao\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.0\\microsoft.entityframeworkcore.sqlserver.3.1.0.nupkg.sha512",
     "C:\\Users\\cgao\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.0\\microsoft.extensions.caching.abstractions.3.1.0.nupkg.sha512",

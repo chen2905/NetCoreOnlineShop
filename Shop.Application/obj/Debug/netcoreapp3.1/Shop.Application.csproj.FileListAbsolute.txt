@@ -13,3 +13,6 @@ C:\Users\cgao\Desktop\Github\NetCoreOnlineShop\Shop.Application\obj\Debug\netcor
 C:\Users\cgao\Desktop\Github\NetCoreOnlineShop\Shop.Application\obj\Debug\netcoreapp3.1\Shop.Application.csproj.CopyComplete
 C:\Users\cgao\Desktop\Github\NetCoreOnlineShop\Shop.Application\obj\Debug\netcoreapp3.1\Shop.Application.dll
 C:\Users\cgao\Desktop\Github\NetCoreOnlineShop\Shop.Application\obj\Debug\netcoreapp3.1\Shop.Application.pdb
+C:\Users\cgao\Desktop\Github\NetCoreOnlineShop\Shop.Application\bin\Debug\netcoreapp3.1\Shop.Application.runtimeconfig.json
+C:\Users\cgao\Desktop\Github\NetCoreOnlineShop\Shop.Application\bin\Debug\netcoreapp3.1\Shop.Application.runtimeconfig.dev.json
+C:\Users\cgao\Desktop\Github\NetCoreOnlineShop\Shop.Application\obj\Debug\netcoreapp3.1\Shop.Application.genruntimeconfig.cache
