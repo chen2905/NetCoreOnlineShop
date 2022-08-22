@@ -17,3 +17,14 @@
     </form>
 
 </div>
+<div>
+    @* in the razor view, the IndexModel is the whole object *@
+    @{
+        foreach (var p in Model.Products)
+                {
+                <p>
+                    @p.Name - @p.Description -@p.Value
+                </p>
+                }
+            }
+</div>
