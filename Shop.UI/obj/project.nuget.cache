@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tSA+S4/HdqGjFp6BW0d7IQ4kxT5FlffCDOLlUxMAkJ48XWz7x6d7+XRihfj1dvNwq5Xqubu+iK1awDULPWv9tQ==",
+  "dgSpecHash": "4S+xz+nkKIenThXpwsztKBi4d9JE5YYdnmCOHdApX2XteQ0ykW8P7Mf79Ssa7wX6hJd6I90A65w9ZF/gZRc03w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cgao\\Documents\\GitHub\\NetCoreOnlineShop\\Shop.UI\\Shop.UI.csproj",
+  "projectFilePath": "C:\\Users\\cgao\\Documents\\GitHub\\NetCoreOnlineShop\\shop.ui\\Shop.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cgao\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.0\\microsoft.aspnetcore.cryptography.internal.3.1.0.nupkg.sha512",
     "C:\\Users\\cgao\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.0\\microsoft.aspnetcore.cryptography.keyderivation.3.1.0.nupkg.sha512",
