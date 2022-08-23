@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Shop.Application.CreateProduct;
-using Shop.Application.GetProducts;
+using Shop.Application.ProductsAdmin;
 using Shop.Database;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -19,9 +18,9 @@ namespace Shop.UI.Pages
 
      
         [BindProperty]//BindProperty says Product is the main model of the view
-        public Application.CreateProduct.ProductViewModel Product { get; set; }
+        public CreateProduct.ProductViewModel Product { get; set; }
 
-        public IEnumerable<Application.GetProducts.ProductViewModel> Products { get; set; }
+        public IEnumerable<GetProducts.ProductViewModel> Products { get; set; }
 
         public void OnGet()
             {
@@ -29,10 +28,10 @@ namespace Shop.UI.Pages
             }
 
 
-        public async Task <IActionResult> OnPost()
-            {
-            await new CreateProducts(_ctx).Do(Product);
-            return RedirectToPage("Index");
-            }
+        //public async Task <IActionResult> OnPost()
+        //    {
+        //    await new CreateProduct(_ctx).Do(Product);
+        //    return RedirectToPage("Index");
+        //    }
         }
     }
