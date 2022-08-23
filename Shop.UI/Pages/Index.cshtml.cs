@@ -18,7 +18,7 @@ namespace Shop.UI.Pages
 
      
         [BindProperty]//BindProperty says Product is the main model of the view
-        public CreateProduct.ProductViewModel Product { get; set; }
+        public CreateProduct.Request Product { get; set; }
 
         public IEnumerable<GetProducts.ProductViewModel> Products { get; set; }
 

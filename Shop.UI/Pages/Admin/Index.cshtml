@@ -7,20 +7,24 @@
 <div id="app">
     @* anything in this app element, VUE will knows  *@
 
-    <input type="number" @@ v-model="price" @@change="alert('hello')" />
-    <button v-on:click="togglePrice">Toggle Price</button>
-    <button v-on:click="getProducts">get products</button>
+     <button v-on:click="getProducts">get products</button>
 
  
 
-    <p @@ v-show="showPrice">
-        {{price}}
-    </p>
-    <p @@ v-if="showPrice">
-        {{formatPrice}}
-    </p>
     @* above is vue directive, the input bind to the model, v-show is true then generate the DOM otherwise not, it is like angular *@
+    
+<div>
+    <input v-model="productModel.name" />
+    <input v-model="productModel.description" />
+    <input v-model="productModel.value" />
+    <button @@click="createProduct">submit</button>
+</div>
+    
+    
+<p v-for="product in products">
+    {{product.id}} -{{product.name}}-{{product.description}}-{{product.value}}
 
+</p>
 </div>
 
 @section scripts{
