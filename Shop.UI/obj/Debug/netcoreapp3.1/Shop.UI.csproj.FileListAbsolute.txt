@@ -128,3 +128,4 @@ C:\Users\cgao\Documents\GitHub\NetCoreOnlineShop\Shop.UI\obj\Debug\netcoreapp3.1
 C:\Users\cgao\Documents\GitHub\NetCoreOnlineShop\Shop.UI\obj\Debug\netcoreapp3.1\Shop.UI.dll
 C:\Users\cgao\Documents\GitHub\NetCoreOnlineShop\Shop.UI\obj\Debug\netcoreapp3.1\Shop.UI.pdb
 C:\Users\cgao\Documents\GitHub\NetCoreOnlineShop\Shop.UI\obj\Debug\netcoreapp3.1\Shop.UI.genruntimeconfig.cache
+C:\Users\cgao\Documents\GitHub\NetCoreOnlineShop\Shop.UI\obj\Debug\netcoreapp3.1\Razor\Pages\Admin\Index.cshtml.g.cs
