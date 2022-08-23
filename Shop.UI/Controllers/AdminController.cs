@@ -5,11 +5,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using static Shop.Application.ProductsAdmin.CreateProduct;
+
 
 namespace Shop.UI.Controllers
     {
-    [Route("[controller]")]//url will be admin
+    //[Route("[controller]")]//url will be admin
+
+    [Route("[controller]")]
     public class AdminController :Controller
         {
         private ApplicationDbContext _ctx;
@@ -19,8 +21,14 @@ namespace Shop.UI.Controllers
             _ctx = ctx;
             }
         [HttpGet("products")]//follow by products, this is restful api url format
-        public IActionResult GetProducts() => Ok( new GetProducts(_ctx).Do());
-
+        public IActionResult GetProducts()
+            {
+            try { return Ok(new GetProducts(_ctx).Do()); }
+            catch
+                {
+                return BadRequest("Error");
+                }
+            }
         [HttpGet("products/{id}")]
         public IActionResult GetProduct(int id) => Ok(new GetProduct(_ctx).Do(id));
 

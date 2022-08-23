@@ -23,7 +23,9 @@ namespace Shop.UI
 
 
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(_config["DefaultConnection"]));
-            services.AddRazorPages();
+            services.AddRazorPages(); 
+            services.AddControllers(options => options.EnableEndpointRouting = false);
+            services.AddControllersWithViews();
             }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,18 +41,20 @@ namespace Shop.UI
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
                 }
-
-            app.UseHttpsRedirection();
+            app.UseDeveloperExceptionPage();
+            app.UseAuthentication();
+            app.UseMvcWithDefaultRoute();
             app.UseStaticFiles();
+            //app.UseHttpsRedirection();
+            //app.UseStaticFiles();
 
-            app.UseRouting();
+            //app.UseRouting();
 
-            app.UseAuthorization();
+            //app.UseAuthorization();
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapRazorPages();
-            });
+            //app.UseMvcWithDefaultRoute();
+
+            //app.MapDefaultControllerRoute();
             }
         }
     }
